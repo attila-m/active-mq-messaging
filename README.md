@@ -23,3 +23,8 @@ ActiveMQSynchronousCommunication
 ```
 
 III. Implement subscriber scaling, i.e. create n subscribers to a topic with the same ClientID (see Virtual Topics in ActiveMQ)
+
+Run
+```
+ActiveMQVirtualTopic
+```
