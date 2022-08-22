@@ -15,8 +15,8 @@ plugins {
     id 'org.springframework.boot' version '2.2.1.RELEASE'
 }
 
-sourceCompatibility = 12
-targetCompatibility = 12
+sourceCompatibility = 11
+targetCompatibility = 11
 
 repositories {
     mavenCentral()
