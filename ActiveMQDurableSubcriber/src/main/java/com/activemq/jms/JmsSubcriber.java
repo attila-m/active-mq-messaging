@@ -5,7 +5,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
 
-
 @Component
 public class JmsSubcriber {
 	private static final Logger logger = LoggerFactory.getLogger(JmsSubcriber.class);
