@@ -30,6 +30,7 @@ public class ConnectionFactoryConfig {
         connectionFactory.setBrokerURL(brokerUrl);
         connectionFactory.setUserName(userName);
         connectionFactory.setPassword(password);
+		connectionFactory.setClientID("my-durable-client-id");
         return connectionFactory;
     }
     
