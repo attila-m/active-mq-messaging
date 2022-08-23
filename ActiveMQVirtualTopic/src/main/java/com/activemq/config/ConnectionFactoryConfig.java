@@ -30,15 +30,6 @@ public class ConnectionFactoryConfig {
 		connectionFactory.setBrokerURL(brokerUrl);
 		connectionFactory.setUserName(userName);
 		connectionFactory.setPassword(password);
-		/*
-		connectionFactory.setClientID("my-client-id");
-
-		This part I don't understand. I added this to satisfy the task:
-		"...create n subscribers to a topic with the same ClientID..."
-		But when I do the app naturally does not start.
-		I don't understand what config I am missing or what am I doing wrong.
-		Maybe I just misunderstood the task...
-		 */
 		return connectionFactory;
 	}
     

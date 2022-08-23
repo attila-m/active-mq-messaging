@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 public class JmsVirtualConsumer2 {
     private static final Logger logger = LoggerFactory.getLogger(JmsVirtualProducer.class);
 
-    @JmsListener(destination = "Consumer.consumer2.VirtualTopic.my-virtual-topic")
+    @JmsListener(destination = "Consumer.consumer1.VirtualTopic.my-virtual-topic")
     public void receive(String message){
         logger.info("Consumer2!!! Recieved Message:  {}", message);
     }
